@@ -23,5 +23,5 @@ console.log('Hello ' + person.name);
 
 
 /* 
-Objects, it has key:pair values.
+Functions.
 */
