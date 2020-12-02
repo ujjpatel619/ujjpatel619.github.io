@@ -25,3 +25,9 @@ console.log('Hello ' + person.name);
 /* 
 Functions.
 */
+
+function world() {
+    console.log('Hello World')
+}
+
+world()
