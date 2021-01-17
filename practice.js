@@ -41,3 +41,26 @@
 //     console.log('This is a function demo!')
 // }
 // demo1();
+
+//Results
+
+//Result Calculator
+
+function examResult(input) {
+if(input < 40) {
+    console.log('You have failed.')
+} else if (input >= 40 && input < 50) {
+console.log('just passed! ')
+} else if (input >= 50 && input < 60) {
+    console.log('got a 2:2! ')
+} else if (input >= 60 && input < 70) {
+    console.log('got a 2:1! ')
+} else if (input >= 70 && input <= 100) {
+        console.log('got a 1:1! ')
+} else {console.log('Enter correct digits!')}}
+
+examResult(34)
+
+function demoDom() {
+    let al = alert('Hello there' )
+document.getElementById('tst1').innerHTML = al }

@@ -1,12 +1,18 @@
-function calc(digit1, digit2) {
-    let multiply = digit1 * digit2
-    let add = digit1 + digit2
-    let sub = digit1 - digit2
-    
-    console.log(multiply)
-    console.log(add)
-    console.log(sub)
+let a = 5; b = 5, c = 5
 
-}
+let x = "3" + 5 + 4
+console.log(a * b - c, x)
 
-calc(4,6)
+
+ let greet = "hello there "
+ greet+= "ujjaval"
+
+ console.log(greet)
+
+
+ let age = 25;
+ age++;
+
+ console.log(age);
+
+ 
