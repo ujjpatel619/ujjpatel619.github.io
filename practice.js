@@ -64,3 +64,5 @@ examResult(34)
 function demoDom() {
     let al = alert('Hello there' )
 document.getElementById('tst1').innerHTML = al }
+
+console.log('this is work macbook!');
