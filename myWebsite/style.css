@@ -1,40 +1,86 @@
-body {
-  background-color: grey;
-  font-family: "Poiret One", cursive;
-}
-
-.container {
-  display: flex;
+/* IMPORTANT
+    ----ALIGN-ITEMS REFER TO THE CROSS AXIS OF THE FLEX DIRECTION (ROW OR COLUMN)----
   /* It aligns the boxes near to their sizes rather than all boxes being the same sizes. 
       align-items: flex-start; 
       align-items: center; 
       align-items: flex-end; 
-      align-items: stretch; < this is the set by default*/ 
+      align-items: stretch; < this is the set by default*/
+/* IMPORTANT 
+    ----JUSTIFY-CONTENT REFERS TO THE MAIN AXIS OF THE FLEX DIRECTION (ROW OR COLUMN)----
+    justify-content: center;
+    justify-content: end;
 
+    ROW MAIN AXIS = ---->>>
+    ROW CROSS AXIS = | (down)
+                     V
+    
+    COLUMN MAIN AXIS = | (down)
+                       V
+    COLUMN CROSS AXIS = ---->>>        
+ */
+
+body {
+  background-color: grey;
+  font-family: "Poiret One", cursive;
+  max-width: 90%;
+  margin: auto;
 }
+
+.myImg {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  /* border: white solid; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
 .header {
-  border: rebeccapurple solid;
-  flex: 1;
-  order: 1;
+  border: yellow solid;
+  text-align: center;
 }
 
-.menuBar {
-  border: springgreen solid;
-  flex: 1;
-  order: 2;
-  /* align-self: flex-end; */
-}
-
-.contact-info {
-  border: steelblue solid;
-  flex: 1;
-  order: 3;
-}
-
-.container2 {
+.menu-container {
+  border: chocolate solid;
   display: flex;
   justify-content: space-between;
-  
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+/*
+ .menuBar {
+  border: springgreen solid;
+   flex: 1; 
+  width: 30%; 
+  align-self: center; 
+
+  FLEX == FLEX-GROW, FLEX-SHRINK & FLEX-BASIS 
+   flex: 0 4 30%; 
+  text-align: center;
+  align-self: center; 
+}
+
+ .contact-info {
+  border: steelblue solid;
+  flex: 1; 
+  width: 30%;
+} 
+
+ .container2 {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header2 {
@@ -43,15 +89,15 @@ body {
 }
 
 .container3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .container-3 {
-    flex: 1;
-    border: royalblue solid;
-    /* width: 10%; */
+  width: 30%;
+  border: royalblue solid;
 }
 
 #text {
@@ -60,4 +106,6 @@ body {
 
 img {
   width: 10em;
-}
+} 
+
+*/
