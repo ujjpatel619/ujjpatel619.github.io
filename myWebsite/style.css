@@ -26,6 +26,8 @@ body {
   margin: auto;
 }
 
+button:focus {outline:0;}
+
 .myImg {
   width: 40%;
   border-radius: 50%;
@@ -45,6 +47,7 @@ body {
   );
   font-size: 32px;
   color: rgb(189, 189, 189);
+  box-shadow: 0px 0px 17px 0px rgba(147, 146, 146, 0.75);
 }
 
 /* INSIDE CONTAINER ONE */
@@ -91,6 +94,8 @@ body {
   align-items: center;
   flex-wrap: wrap;
   background-color: rgb(79, 80, 87);
+  box-shadow: 0px 0px 17px 0px rgba(147, 146, 146, 0.75);
+  
 }
 
 .menuBtn,
@@ -132,6 +137,7 @@ body {
     rgba(26, 33, 64, 1) 10.9%,
     rgba(81, 84, 115, 1) 87.1%
   );
+  box-shadow: 0px 0px 17px 0px rgba(147, 146, 146, 0.75);
 }
 
 #text, #current-project {
@@ -149,7 +155,7 @@ body {
 #current-project h3 {
   font-weight: bold;
   font-size: 38px;
-  color:#01bbff
+  color:aqua;
 }
 
 #current-project img {
