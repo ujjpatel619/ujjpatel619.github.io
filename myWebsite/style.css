@@ -38,9 +38,11 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(94.3deg,
-      rgba(26, 33, 64, 1) 10.9%,
-      rgba(81, 84, 115, 1) 87.1%);
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
   font-size: 32px;
   color: rgb(189, 189, 189);
 }
@@ -51,7 +53,6 @@ body {
   text-align: center;
   flex: 3;
   padding-left: 15%;
-
 }
 
 /* INSIDE CONTAINER ONE */
@@ -89,7 +90,7 @@ body {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgb(79, 80, 87)
+  background-color: rgb(79, 80, 87);
 }
 
 .menuBtn,
@@ -102,7 +103,7 @@ body {
   cursor: pointer;
   text-align: center;
   background: none;
-  border: double rgba(26, 33, 64, 1)
+  border: double rgba(26, 33, 64, 1);
 }
 
 .social-btn {
@@ -115,10 +116,32 @@ body {
 }
 
 .fas {
-  color: rgb(57, 54, 54)
+  color: rgb(57, 54, 54);
 }
 
 .fas:hover {
   color: aqua;
   background: rgb(41, 41, 41);
+}
+
+/* CONTAINER-3 */
+
+.desc-cont {
+  display: flex;
+  background-image: linear-gradient(
+    94.3deg,
+    rgba(26, 33, 64, 1) 10.9%,
+    rgba(81, 84, 115, 1) 87.1%
+  );
+}
+
+#text {
+  text-align: center;
+  display: none;
+  color: rgb(189, 189, 189);
+  padding: 15px 15px;
+  margin: 10px;
+  /* border: dotted royalblue; */
+  font-size: 30px;
+  font-family: "Poiret One", cursive;
 }
