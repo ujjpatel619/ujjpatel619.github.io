@@ -125,7 +125,6 @@ body {
 }
 
 /* CONTAINER-3 */
-
 .desc-cont {
   display: flex;
   background-image: linear-gradient(
@@ -135,13 +134,25 @@ body {
   );
 }
 
-#text {
+#text, #current-project {
   text-align: center;
   display: none;
   color: rgb(189, 189, 189);
   padding: 15px 15px;
   margin: 10px;
   /* border: dotted royalblue; */
-  font-size: 30px;
+  font-size: 28px;
   font-family: "Poiret One", cursive;
+  flex: 1;
+}
+
+#current-project h3 {
+  font-weight: bold;
+  font-size: 38px;
+  color:#01bbff
+}
+
+#current-project img {
+  width: 15%;
+  text-align: left;
 }
