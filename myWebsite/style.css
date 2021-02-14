@@ -31,6 +31,7 @@ button:focus {outline:0;}
 .myImg {
   width: 40%;
   border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px rgba(40, 39, 39, 0.75);
 }
 
 /* CONTAINER ONE */
