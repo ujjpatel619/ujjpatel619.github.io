@@ -153,7 +153,7 @@ button:focus {outline:0;}
   flex: 1;
 }
 
-#current-project h3, #workexp-box1 h3 {
+#current-project h3, #workexp-box1 h3, #workexp-box2 h3 {
   font-weight: bold;
   font-size: 38px;
   color:aqua;
