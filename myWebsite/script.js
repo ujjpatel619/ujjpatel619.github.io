@@ -21,6 +21,7 @@ function aboutMeClick() {
   if (textInfo.style.display !== "block") {
     textInfo.style.display = "block";
     currentProjectDiv.style.display = "none";
+    workExpDiv.style.display = "none"
     window.scrollTo(0, 1000);
   } else {
     textInfo.style.display = "none";
@@ -36,8 +37,26 @@ function currentProjectClick() {
   if (currentProjectDiv.style.display !== "block") {
     currentProjectDiv.style.display = "block";
     textInfo.style.display = "none";
+    workExpDiv.style.display = "none"
     window.scrollTo(0, 1000);
   } else {
     currentProjectDiv.style.display = "none";
   }
 }
+
+const workExpDiv = document.getElementById('work-experince');
+const workExpBtn = document.getElementById('workexBtn').addEventListener('click', workExpClick)
+
+function workExpClick() {
+if(workExpDiv.style.display !== "block") {
+  workExpDiv.style.display = "block"
+  textInfo.style.display = "none";
+  currentProjectDiv.style.display = "none";
+  window.scrollTo(0,950)
+}else {
+  workExpDiv.style.display = "none"
+}
+
+}
+
+
