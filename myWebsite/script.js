@@ -56,7 +56,6 @@ if(workExpDiv.style.display !== "block") {
 }else {
   workExpDiv.style.display = "none"
 }
-
 }
 
 
