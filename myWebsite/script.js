@@ -22,7 +22,10 @@ function aboutMeClick() {
     textInfo.style.display = "block";
     currentProjectDiv.style.display = "none";
     workExpDiv.style.display = "none"
-    window.scrollTo(0, 1000);
+    window.scrollTo({
+      top: 800,
+      behavior: 'smooth'
+    });
   } else {
     textInfo.style.display = "none";
   }
@@ -38,7 +41,10 @@ function currentProjectClick() {
     currentProjectDiv.style.display = "block";
     textInfo.style.display = "none";
     workExpDiv.style.display = "none"
-    window.scrollTo(0, 1000);
+    window.scrollTo({
+      top: 800,
+      behavior: 'smooth'
+    });
   } else {
     currentProjectDiv.style.display = "none";
   }
@@ -48,14 +54,15 @@ const workExpDiv = document.getElementById('work-experince');
 const workExpBtn = document.getElementById('workexBtn').addEventListener('click', workExpClick)
 
 function workExpClick() {
-if(workExpDiv.style.display !== "block") {
-  workExpDiv.style.display = "block"
-  textInfo.style.display = "none";
-  currentProjectDiv.style.display = "none";
-  window.scrollTo(0,950)
-}else {
-  workExpDiv.style.display = "none"
+  if (workExpDiv.style.display !== "block") {
+    workExpDiv.style.display = "block"
+    textInfo.style.display = "none";
+    currentProjectDiv.style.display = "none";
+    window.scrollTo({
+      top: 850,
+      behavior: 'smooth'
+    });
+  } else {
+    workExpDiv.style.display = "none"
+  }
 }
-}
-
-
