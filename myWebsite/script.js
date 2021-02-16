@@ -21,11 +21,11 @@ function aboutMeClick() {
   if (textInfo.style.display !== "block") {
     textInfo.style.display = "block";
     currentProjectDiv.style.display = "none";
-    workExpDiv.style.display = "none"
+    workExpDiv.style.display = "none";
     cvDiv.style.display = "none";
     window.scrollTo({
       top: 800,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   } else {
     textInfo.style.display = "none";
@@ -45,44 +45,48 @@ function currentProjectClick() {
     cvDiv.style.display = "none";
     window.scrollTo({
       top: 800,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   } else {
     currentProjectDiv.style.display = "none";
   }
 }
 
-const workExpDiv = document.getElementById('work-experince');
-const workExpBtn = document.getElementById('workexBtn').addEventListener('click', workExpClick)
+const workExpDiv = document.getElementById("work-experince");
+const workExpBtn = document
+  .getElementById("workexBtn")
+  .addEventListener("click", workExpClick);
 
 function workExpClick() {
   if (workExpDiv.style.display !== "block") {
-    workExpDiv.style.display = "block"
+    workExpDiv.style.display = "block";
     textInfo.style.display = "none";
     currentProjectDiv.style.display = "none";
     cvDiv.style.display = "none";
     window.scrollTo({
       top: 850,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   } else {
-    workExpDiv.style.display = "none"
+    workExpDiv.style.display = "none";
   }
 }
-const cvDiv = document.getElementById('cvDiv');
-const cvBtn = document.getElementById('cvBtn').addEventListener('click', cvClick)
+const cvDiv = document.getElementById("cvDiv");
+const cvBtn = document
+  .getElementById("cvBtn")
+  .addEventListener("click", cvClick);
 
 function cvClick() {
-  if (cvDiv.style.display !== 'block') {
+  if (cvDiv.style.display !== "block") {
     cvDiv.style.display = "block";
     textInfo.style.display = "none";
     currentProjectDiv.style.display = "none";
-    workExpDiv.style.display = "none"
+    workExpDiv.style.display = "none";
     window.scrollTo({
       top: 850,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   } else {
-    cvDiv.style.display = 'none'
+    cvDiv.style.display = "none";
   }
 }

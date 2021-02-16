@@ -26,7 +26,9 @@ body {
   margin: auto;
 }
 
-button:focus {outline:0;}
+button:focus {
+  outline: 0;
+}
 
 .myImg {
   width: 40%;
@@ -96,11 +98,10 @@ button:focus {outline:0;}
   flex-wrap: wrap;
   background-color: rgb(79, 80, 87);
   box-shadow: 0px 0px 17px 0px rgba(147, 146, 146, 0.75);
-  
 }
 
 .menuBtn,
-.social-btn  {
+.social-btn {
   color: rgb(189, 189, 189);
   padding: 15px 15px;
   margin: 10px;
@@ -141,7 +142,10 @@ button:focus {outline:0;}
   box-shadow: 0px 0px 17px 0px rgba(147, 146, 146, 0.75);
 }
 
-#text, #current-project, #work-experince, #cvDiv {
+#text,
+#current-project,
+#work-experince,
+#cvDiv {
   text-align: center;
   display: none;
   color: rgb(189, 189, 189);
@@ -153,10 +157,12 @@ button:focus {outline:0;}
   flex: 1;
 }
 
-#current-project h3, #workexp-box1 h3, #workexp-box2 h3 {
+#current-project h3,
+#workexp-box1 h3,
+#workexp-box2 h3 {
   font-weight: bold;
   font-size: 38px;
-  color:aqua;
+  color: aqua;
 }
 
 #current-project img {
@@ -169,21 +175,21 @@ button:focus {outline:0;}
   margin-bottom: 0;
 }
 
-#workexp-box1, #workexp-box2  {
+#workexp-box1,
+#workexp-box2 {
   box-shadow: 0px 0px 20px 2px black;
   border-radius: 10px;
   padding: 5px;
   margin: 8%;
   background-color: #000000;
-background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 }
 
 #work-experince img {
   width: 15%;
-  background:white;
+  background: white;
   padding: 5px;
   border-radius: 5px;
-  
 }
 
 #cvFrame {
