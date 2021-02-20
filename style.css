@@ -43,11 +43,9 @@ button:focus {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background-image: linear-gradient(94.3deg,
+      rgba(26, 33, 64, 1) 10.9%,
+      rgba(81, 84, 115, 1) 87.1%);
   font-size: 32px;
   color: rgb(189, 189, 189);
   box-shadow: 0px 0px 17px 0px rgba(147, 146, 146, 0.75);
@@ -134,11 +132,9 @@ button:focus {
 /* CONTAINER-3 */
 .desc-cont {
   display: flex;
-  background-image: linear-gradient(
-    94.3deg,
-    rgba(26, 33, 64, 1) 10.9%,
-    rgba(81, 84, 115, 1) 87.1%
-  );
+  background-image: linear-gradient(94.3deg,
+      rgba(26, 33, 64, 1) 10.9%,
+      rgba(81, 84, 115, 1) 87.1%);
   box-shadow: 0px 0px 17px 0px rgba(147, 146, 146, 0.75);
 }
 
@@ -217,4 +213,81 @@ button:focus {
 #cvDiv button:hover {
   color: aqua;
   background: rgb(41, 41, 41);
+}
+
+@media screen and (max-width: 500px) {
+
+  .container {
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .header {
+    padding-left: 0px;
+  }
+
+  .social-icons {
+    align-self: center;
+    margin-right: 0%;
+    padding-bottom: 0%;
+  }
+
+  .menu-container {
+    display: block;
+    padding-left: 5%;
+  }
+
+  .menuBtn {
+    width: 90%;
+  }
+
+  h3,
+  i {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  #current-project h3,
+  #workexp-box1 h3,
+  #workexp-box2 h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: aqua;
+  }
+
+  #curent-project {
+    padding: 0px 0px;
+  }
+
+  #current-project img {
+    width: 30%;
+  }
+
+  #work-experince {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    max-width: 100%;
+  }
+
+  #workexp-box1 {
+    margin: 5%;
+    margin-bottom: 8%;
+    margin-top: 8%;
+  }
+
+  #workexp-box1 img {
+    width: 30%
+  }
+
+  #cvFrame {
+    width: 100%;
+    height: 100%;
+  }
+
 }
