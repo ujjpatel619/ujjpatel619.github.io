@@ -32,7 +32,7 @@ button:focus {
 
 .myImg {
   width: 40%;
-  border-radius: 50%;
+  border-radius: 5%;
   box-shadow: 5px 5px 5px 5px rgba(40, 39, 39, 0.75);
 }
 
@@ -187,9 +187,15 @@ height: 80px;
 
 #work-experince img {
   width: 15%;
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 5px;
   border-radius: 5px;
+}
+
+#work-experince #mettlelogo {
+  background: #333232;
+  padding: 5px;
+  width: 15%;
 }
 
 #cvFrame {
@@ -292,7 +298,6 @@ height: 80px;
   #natwestlogo {
     height: 40px;
   }
-
 
   #cvFrame {
     width: 100%;
