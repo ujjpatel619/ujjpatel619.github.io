@@ -10,7 +10,7 @@ function linkedin() {
 }
 
 function github() {
-  window.open("https://github.com/ujjpatel");
+  window.open("https://github.com/ujjpatel619");
 }
 
 const aboutMeBtn = document.getElementById("aboutmeBtn");
